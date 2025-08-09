@@ -1,0 +1,156 @@
+html{
+  font-size: 16px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family:'Roboto' sans-serif;
+  font-size: 18px;
+  color: #444444;
+}
+a{
+  text-decoration: none;
+}
+#navbar{
+  padding: 8px;
+  /* height: 20px; */
+}
+#logo{
+  width: 80px;
+  border-radius: 50%;
+}
+h1,h2,h3{
+  font-family:'inter' sans-serif;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  /* color: darkblue; */
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 0px 8px;
+  margin-bottom: 12px;
+}
+#application{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+#application-form{
+  font-weight: 600;
+}
+.form-group{
+  margin: 16px 0;
+}
+#application-form label{
+  font-weight: 600;
+}
+#application-form input,select,textarea{
+  padding: 4px;
+  font-size: 1rem;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.form-group textarea{
+  width: 80%;
+  height: 80px;
+  font-family: 'Roboto' ,sans-serif;
+}
+.form-group input[type="checkbox"]{
+  width: 16px;
+  height: 16px;
+}
+.form-group input[type="submit"]{
+  background-color: #155dfc;
+  margin: 0;
+  padding: 0 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgb(rgb(228, 223, 223), rgb(0, 128, 9), blue);
+  
+}
+.form-group input[type="submit"]:hover{
+background-color: #2058e5;
+}
+#banner{
+  width: 100%;
+  object-fit: cover;
+  
+}
+.about{
+  display: flex;
+  max-width: 800px;
+  margin: 0px auto;
+}
+.description{
+  width: 50%;
+  padding-right:  8px;
+}
+a{
+  color: #3b82f6;
+}
+a:hover, a:focus{
+  color: #1d4ed8;
+}
+.team{
+  width: 50%;
+}
+#team-image{
+  width: 100%;
+  height: 270px;
+  border: 5px;
+}
+
+#jobs{
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 0px 8px;
+}
+#jobs-table{
+  width: 100%;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+.jobs-header-row th{
+  border: 1px solid grey;
+  padding: 8px;
+  background-color: aliceblue;
+  color: #222222;
+  text-align: center;
+}
+.jobs-data-row td{
+  border: 1px solid grey;
+  padding: 8px;
+}
+#jobs-table tr:nth-child(odd)
+{
+  background-color: #EFF6FF;
+}
+h3{
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.apply{
+  float: right;
+}
+
+#footer{
+  background-color: #FAFAFA;
+  padding: 8px;
+  margin-top: 18px;
+  text-align: center;
+}
+#footer-links{
+list-style: none;
+
+}
+#footer-links li{
+  display: inline;
+  margin: 0 10px;
+}
+.copy-right{
+  color: #78716c;
+}

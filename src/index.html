@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My first web Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="navbar">
+      <img id="logo" src="logo1.jpg" alt="Logo">
+    </div>
+    <img id="banner" src="banner1.jpg" alt="banner" height="240px" >
+    <h1>About Sandeep</h1>
+    <div class="about">
+      <div class="description">
+        <p style="margin: 0;padding: 0;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ducimus pariatur voluptas minima ad culpa sunt neque amet harum exercitationem, qui voluptatum possimus ipsum in sit mollitia dicta consequatur rerum tempore fuga illum repudiandae. Explicabo, commodi, vero nesciunt inventore nemo voluptatum ut, perspiciatis illum sunt amet id. Hic, cupiditate neque?
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      <ol>
+        <li>
+          <a href="https://www.javinglobal.com/">
+          Sandeep full Stack Devlopement Bootcamp</li>
+        <li>
+          <a href="https://www.javinglobal.com/">
+          Sandeep Data science Bootcamp
+        </a>
+        </li>
+      </ol>
+    </p>
+      </div>
+      <div class="team">
+       <img src="team.jpg" id="team-image" alt="team">
+      </div>
+    </div>
+    <h1>Job Oppertunities</h1>
+    <div id="jobs">
+    <table id="jobs-table">
+      <tr class="jobs-header-row">
+        <th rowspan="2">Job Title</th>
+        <th colspan="2">Location</th>
+        <th rowspan="2">Salary</th>
+        <th rowspan="2">Posted on</th>
+      </tr>
+      <tr class="jobs-header-row">
+        <th>City</th>
+        <th>Country</th>
+      </tr>
+      <tr class="jobs-data-row">
+        <td>Frontend</td>
+        <td>Bengluru</td>
+        <td>India</td>
+        <td>$120000</td>
+        <td>Mar 3,2023</td>
+      </tr>
+      <tr class="jobs-data-row">
+        <td>Full Stack Devloper</td>
+        <td>Delhi,India</td>
+        <td>India</td>
+        <td>$150000</td>
+        <td>Dec 22,2023</td>
+      </tr>
+      <tr class="jobs-data-row">
+        <td>Data Science </td>
+        <td>Sans,Francesisco,USA</td>
+        <td>USA</td>
+        <td>$150000</td>
+        <td>Dec 22,2023</td>
+      </tr>
+      <tr class="jobs-data-row">
+        <td>ML Engineer </td>
+        <td colspan="2">Remote</td>
+        <td>$80000</td>
+        <td>Feb 1,2024</td>
+      </tr>
+      
+    </table>
+   <div id="application">
+    <h2>Submit Your Application</h2>
+    <!--Simple form remove later-->
+    <form action="https://formbold.com/s/9gJ8M" id="application-form" enctype="multipart/form-data"  method="post">
+      <div class="form-group">
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Sandeep Sharma" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Ex123@gmail.com">
+      </div>
+      <div class="form-group">
+        <label for="number">Number</label><br>
+        <input type="number" id="number" name="number" placeholder="1234567890">
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="dob" placeholder="1234567890">
+      </div>
+      <div class="form-group">
+        <label for="position">Position Applied for</label><br>
+        <select name="position_applied" id="position">
+         <option value="">Select Position</option>
+         <option value="frontend">Frontend Devlopement</option>
+        <option value="full_stack">Full Stack Devlopement</option>
+        <option value="data_scientist">Data Science</option>
+        <option value="">ML Engineer</option>
+       </select>
+      </div>
+      <div class="form-group">
+        <label for="resume">Upload Resume</label><br>
+        <input type="file" id="dob" name="resume">
+      </div>
+      <div class="form-group">
+        <label for="cover_letter">Cover Letter</label><br>
+        <textarea name="cover_letter" id="cover_letter" placeholder="What make you suitable for the job"></textarea>
+      </div>
+       <div class="form-group">
+         <input type="checkbox" id="checkbox" name="checkbox">
+         <label for="checkbox">I accept the terms and condition</label>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Submint Application">
+      </div>
+    </form>
+   </div>
+    <div id="footer">
+      <ul id="footer-links">
+        <li>
+          <a href="https://www.javinglobal.com/" target="_blank">
+            Courses
+          </a>
+        </li>
+        <li>
+        <a href="https://www.javinglobal.com/" target="_blank">
+            Program
+          </a>
+          </li>
+        <li>
+          <a href="https://youtu.be/dX8396ZmSPk?si=7kg-wUSukenCr_S7
+          " target="_blank">You tube
+        </a>
+        </li>
+      </ul>
+      <span class="copy-right">© 2025,Sandeep</span>
+    </div>
+  </body>
+</html>
