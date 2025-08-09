@@ -1,0 +1,23 @@
+[33mcommit dce120267410b77b8c603c50988badde7b97f5bb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Sandeep-Pro2003 <sandeepproj0@gmail.com>
+Date:   Sat Aug 9 15:51:16 2025 +0000
+
+    Adding the HTML file and CSS file
+
+ src/banner1.jpg | Bin [31m0[m -> [32m13940[m bytes
+ src/index.html  | 149 [32m+++++++++++++++++++++++++++++++++++++++[m
+ src/logo1.jpg   | Bin [31m0[m -> [32m2465[m bytes
+ src/style.css   | 156 [32m+++++++++++++++++++++++++++++++++++++++++[m
+ src/team.jpg    | Bin [31m0[m -> [32m113957[m bytes
+ 5 files changed, 305 insertions(+)
+
+[33mcommit c7671d4a24f0f2898cc41f5e160b33aa838ecfbf[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sandeep-Pro2003 <sandeepproj0@gmail.com>
+Date:   Sat Aug 9 10:30:03 2025 +0530
+
+    Initial commit
+
+ .gitignore | 139 [32m++++++++++++++++++++++++++++++++++++++++++++++[m
+ LICENSE    |  21 [32m+++++++[m
+ README.md  |   2 [32m+[m
+ 3 files changed, 162 insertions(+)
